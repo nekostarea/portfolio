@@ -16,12 +16,12 @@ body{color:var(--ink);background-image:linear-gradient(#f6f0e9b8,#f6f0e9b8),url(
 .hero-photo-area{position:relative}
 .garden-gate{position:absolute;width:145%;height:auto;max-width:none;left:-23%;top:-100px;opacity:.26;z-index:-3;pointer-events:none;filter:sepia(.12) saturate(.5)}
 .hero-side-note{font:400 24px/1.6 'P22 Folk Art Cross',serif;letter-spacing:0;color:#665261;transform:rotate(-3deg);margin-bottom:26px}
-.photo-afterthought{color:#695663}
+.photo-afterthought{font:400 22px/1.5 'P22 Folk Art Cross',serif;color:#695663}
 .photo-keepsake{background-color:#fff8f5c4}
 .photo-index,.photo-caption{color:#665462}
 .section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand{color:#816376}
 .section-heading>p,.section-intro,.card-info>p:not(.eyebrow){color:#665561}
-.margin-note{font:400 23px/1.6 'P22 Folk Art Cross',serif;color:#725c6c}
+.margin-note{font:400 24px/1.6 'P22 Folk Art Cross',serif;color:#725c6c}
 .expertise-card{background-color:#e6d3de;background-image:linear-gradient(#ecd8e4ad,#ecd8e4ad),url('materials/ivory-canvas.png');border-color:#c4aaba}
 .expertise-card:nth-child(2){background-color:#d4e1ef;background-image:linear-gradient(#d6e3f0bb,#d6e3f0bb),url('materials/ivory-canvas.png')}
 .expertise-card:nth-child(3){background-color:#e0d7eb;background-image:linear-gradient(#e2d8edb5,#e2d8edb5),url('materials/ivory-canvas.png')}
