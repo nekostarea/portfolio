@@ -1,0 +1,43 @@
+/* User-supplied Mazzy display type; original lace and botanical stitch motifs. */
+@font-face{font-family:Mazzy;src:url('fonts/mazzy-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.blue-hero{background:radial-gradient(ellipse at 78% 30%,#f5eee2bd,transparent 60%),radial-gradient(ellipse at 5% 95%,#e6dbe999,transparent 55%),#cbd7e5;padding-top:50px}
+.blue-hero .hero-ornament{opacity:.22}
+.blue-hero:after{content:'';position:absolute;left:0;right:0;top:0;height:54px;background:url('lace.svg') left top/96px 54px repeat-x;pointer-events:none;opacity:.95}
+.blue-hero h1{font-family:Mazzy,serif;font-size:clamp(150px,16.7vw,240px);line-height:.9;letter-spacing:-.045em}
+.blue-hero h1>span{font-size:.95em;margin-top:6px}
+.blue-hero .hero-description{background:#f8f7f022;padding:5px 0}
+.embroidered-flower{position:absolute;right:-10px;top:100px;width:380px;height:auto;pointer-events:none;opacity:.7;z-index:-1;transform:rotate(7deg)}
+.hero-photo-area{isolation:isolate;padding-top:15px}
+.hero-photo-area:before{content:'';position:absolute;inset:92px -20px 55px -28px;background:#fffdf65e;border:1px solid #fffdf6bd;box-shadow:3px 6px 18px #4d60730d;transform:rotate(-8deg);z-index:-1;pointer-events:none;backdrop-filter:blur(2px)}
+.photo-echo{position:absolute;top:106px;left:-50px;width:108%;transform:rotate(-13deg);opacity:.34;z-index:-2;pointer-events:none;mix-blend-mode:multiply;filter:grayscale(.35)}
+.photo-echo img{width:100%;height:auto}
+.hero-side-note,.photo-afterthought{position:relative;z-index:1}
+.photo-keepsake{background:#fffdf2c2;border:1px solid #fffdf5c9;backdrop-filter:blur(3px);padding:17px 17px 20px;box-shadow:3px 8px 21px #4359731f}
+.photo-keepsake:after{content:'';position:absolute;inset:7px;border:1px dashed #7b8b9e9c;pointer-events:none}
+.photo-index,.photo-caption{color:#354d66}
+.blue-hero .hero-bottom{border-top:1px dashed #7d91aa;position:relative;z-index:2}
+.section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand,.footer-top h2 .hand{font-family:Mazzy,serif;font-size:1.12em;line-height:1.3;letter-spacing:-.035em}
+.section-heading{position:relative}
+.expertise-card{position:relative;border:1px solid #bcc7d2;border-radius:2px;background:#e4eaf0b3;isolation:isolate}
+.expertise-card:after{content:'';position:absolute;inset:7px;border:1px dashed #8495a485;z-index:-1;pointer-events:none}
+.expertise-card:nth-child(2){background:#eee8e0b8}.expertise-card:nth-child(3){background:#e9e2efba}
+.expertise-card:hover{transform:translateY(-5px) rotate(-.5deg)}
+.expertise-action{border-top-style:dashed}
+.card-image{border-radius:2px;position:relative}.card-image:after{content:'';position:absolute;inset:7px;border:1px dashed #7f8d9e94;pointer-events:none}
+.about-section{position:relative;background:#e8eaf0;isolation:isolate;overflow:hidden}
+.about-section:before{content:'';position:absolute;right:-160px;bottom:-150px;width:380px;height:560px;background:url('embroidery.svg') center/contain no-repeat;opacity:.14;z-index:-1;transform:rotate(15deg)}
+.about-section:after{content:'';position:absolute;left:0;right:0;top:0;height:45px;background:url('lace.svg') top left/80px 45px repeat-x;pointer-events:none;opacity:.9}
+.project-gallery{border-style:dashed;background:#fffdf733}
+.study+.study{border-top:0}.study{border-bottom-style:dashed}
+.collection-hero{background:radial-gradient(ellipse at 90% 10%,#ede4ed88,transparent 70%),#e7edf3}
+.collection-hero:after{width:250px;right:-35px;top:15px;background:url('embroidery.svg') center/contain no-repeat;opacity:.17;transform:rotate(-10deg)}
+.collection-hero h1{font-size:clamp(40px,5.6vw,74px)}
+.footer-top h2 .hand{color:#e5e8f1}
+footer{position:relative;padding-top:80px}
+footer:before{content:'';position:absolute;left:0;right:0;top:0;height:42px;background:url('lace.svg') top left/75px 42px repeat-x;opacity:.5;pointer-events:none}
+.footer-bottom{border-top-style:dashed}
+@media(max-width:1000px){.blue-hero h1{font-size:9.5vw}.embroidered-flower{width:300px;right:-80px;opacity:.45}.photo-echo{left:-20px;width:100%}.hero-photo-area:before{left:-10px;right:-10px}}
+@media(max-width:720px){.blue-hero{padding-top:48px}.blue-hero:before{border-style:dashed;border-color:#fffdf799;border-radius:0;inset:15px}.blue-hero:after{height:38px;background-size:68px 38px}.blue-hero h1{font-size:clamp(62px,15.9vw,110px);line-height:1.1;letter-spacing:-.04em;margin-bottom:26px}.blue-hero h1>span{font-size:.84em;line-height:1.1;margin-top:12px}.embroidered-flower{width:230px;top:auto;bottom:45px;right:-47px;opacity:.38}.hero-photo-area{padding-top:0;max-width:270px;margin-top:30px}.hero-photo-area:before{inset:75px -10px 35px -10px}.photo-echo{top:100px;left:-18px;width:105%;opacity:.28}.photo-keepsake{padding:14px}.blue-hero .hero-description{font-size:14px}.section-heading h2 .hand,.about-section h2 .hand{font-size:1.02em}.collection-hero h1 .hand{font-size:1.04em}.collection-hero:after{width:200px;right:-55px;opacity:.12}.about-section:after{height:36px;background-size:64px 36px}}
+/* Mazzy's drawn letters occupy less of the em square than the previous script. */
+@media(max-width:1000px) and (min-width:721px){.blue-hero h1{font-size:17vw;line-height:.9}}
+@media(max-width:720px){.blue-hero h1{font-size:clamp(105px,33vw,160px);line-height:.95}.blue-hero h1>span{font-size:.91em;line-height:.95;margin-top:12px}}

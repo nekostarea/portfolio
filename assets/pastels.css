@@ -1,0 +1,55 @@
+/* Four font families only: Mazzy, Apple Garamond, Courier, P22 Folk Art Cross. */
+@font-face{font-family:Courier;src:url('fonts/courier-regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'P22 Folk Art Cross';src:url('fonts/p22-folk-art-cross.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+:root{--paper:#f6f0e9;--ink:#574953;--muted:#655560;--line:#cfbec8;--green:#eedde5;--blue:#d3dfef;--blue-ink:#5a4b59;--body:'Apple Garamond',serif;--mono:Courier,monospace}
+body{color:var(--ink);background-image:linear-gradient(#f6f0e9b8,#f6f0e9b8),url('materials/ivory-canvas.png')}
+.site-header{background-image:linear-gradient(#f7edeebc,#f7edeebc),url('materials/ivory-canvas.png')}
+.wordmark{font-family:'Apple Garamond',serif;font-weight:700;font-style:italic;letter-spacing:-3px}
+.wordmark span{color:#756270}
+.site-header nav a{font-size:11px}
+.blue-hero{background-image:radial-gradient(ellipse at 88% 15%,#e7c5d7b8,transparent 60%),radial-gradient(ellipse at 20% 90%,#e0d3ec99,transparent 65%),linear-gradient(#d3dff0ac,#e5dcebb0),url('materials/ivory-canvas.png');background-size:auto,auto,auto,640px 640px}
+.blue-hero h1{color:#61515e}
+.blue-hero .intro-line,.blue-hero .hero-description,.blue-hero .hero-meta,.blue-hero .hero-bottom{color:#584b59}
+.blue-hero .hero-bottom{border-color:#ad92a5}
+.pill-link.dark,.blue-hero .pill-link.dark{background:#ebd4e0;color:#51414e;border-color:#a98d9f}
+.pill-link:hover{background-color:#e2d2e8;color:#51414e}
+.hero-photo-area{position:relative}
+.garden-gate{position:absolute;width:145%;height:auto;max-width:none;left:-23%;top:-100px;opacity:.26;z-index:-3;pointer-events:none;filter:sepia(.12) saturate(.5)}
+.hero-side-note{font:400 24px/1.6 'P22 Folk Art Cross',serif;letter-spacing:0;color:#665261;transform:rotate(-3deg);margin-bottom:26px}
+.photo-afterthought{color:#695663}
+.photo-keepsake{background-color:#fff8f5c4}
+.photo-index,.photo-caption{color:#665462}
+.section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand{color:#816376}
+.section-heading>p,.section-intro,.card-info>p:not(.eyebrow){color:#665561}
+.margin-note{font:400 23px/1.6 'P22 Folk Art Cross',serif;color:#725c6c}
+.expertise-card{background-color:#e6d3de;background-image:linear-gradient(#ecd8e4ad,#ecd8e4ad),url('materials/ivory-canvas.png');border-color:#c4aaba}
+.expertise-card:nth-child(2){background-color:#d4e1ef;background-image:linear-gradient(#d6e3f0bb,#d6e3f0bb),url('materials/ivory-canvas.png')}
+.expertise-card:nth-child(3){background-color:#e0d7eb;background-image:linear-gradient(#e2d8edb5,#e2d8edb5),url('materials/ivory-canvas.png')}
+.expertise-card>p{color:#5d4f5e}
+.expertise-card:after{border-color:#a58b9e99}
+.expertise-action{border-color:#b59aad}
+.expertise-card:hover{box-shadow:4px 7px 0 #d8bfd280}
+.card-image{background:#e8d8e2}.project-card:nth-child(2) .card-image{background:#dce6f1}.project-card:nth-child(3) .card-image{background:#e4dced}
+.card-arrow{background:#fbf3ef;color:#665262}
+.about-section{background-color:#e9dce6;background-image:linear-gradient(#eaddedae,#eaddedae),url('materials/ivory-canvas.png')}
+.skill-tags span{border-color:#c1a7b9}
+.collection-hero{background-color:#e5ddeb;background-image:radial-gradient(ellipse at 90% 5%,#edd0dfaa,transparent 65%),linear-gradient(#dbe5f0a5,#e7dcecab),url('materials/ivory-canvas.png')}
+.project-jump a{background:#fbf4f0b0;border-color:#c3aebb}
+.project-jump a:hover{background:#e9d4e2}
+.study-index{color:#7b6072}
+.study-cover{background-color:#e9dfe7;background-image:linear-gradient(#ebe0e7ad,#ebe0e7ad),url('materials/ivory-canvas.png')}
+.facts li{border-color:#c6afbe}
+.gallery-count,.gallery-note{color:#6a5966}
+footer{color:#564651;background-color:#ead7e3;background-image:linear-gradient(#ead9e6c7,#ead9e6c7),url('materials/ivory-canvas.png')}
+.footer-top h2 .hand{color:#7b5b70}
+footer .circle-link{border-color:#ae8d9f}
+.footer-bottom{border-color:#af94a5}
+.colophon{color:#67505f}
+.viewer{color:#564651;background:#f7f0eb}
+.viewer::backdrop{background:#4b3c49ce}
+.viewer button{font-family:Courier,monospace}
+.skip-link{background:#e9d3e0;color:#51414e}
+.glyph-icon{display:inline-block;vertical-align:-.12em;width:1em;height:1em;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.circle-link .glyph-icon{width:30px;height:30px}
+.wordmark .glyph-icon{width:22px;height:22px}
+@media(max-width:720px){.site-header nav a{font-size:10px}.garden-gate{width:140%;left:-20%;top:-55px;opacity:.23}.hero-side-note{font-size:22px;line-height:1.6}.margin-note{display:none}}

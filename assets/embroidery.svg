@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" fill="none">
+<defs><g id="cross" stroke="currentColor" stroke-width="1.4"><path d="M-2-2 2 2M2-2-2 2"/></g><g id="blossom"><g stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-dasharray=".1 5"><path d="M0-12C-17-46-47-26-27-5C-61-13-58 26-24 24C-39 55-3 66 7 33C25 62 53 35 27 15C64 14 59-23 25-17C42-46 9-62 0-12Z"/><path d="M-12-8C-22-23-36-8-20 2C-40 13-24 31-10 20C-11 39 14 38 14 19C34 30 40 6 20 2C35-10 14-28 7-12C3-25-12-23-12-8Z"/></g><circle r="8" stroke="currentColor" stroke-dasharray="1 4"/><use href="#cross"/><use href="#cross" x="-16" y="-34"/><use href="#cross" x="37" y="-2"/><use href="#cross" x="-31" y="18"/><use href="#cross" x="6" y="44"/></g></defs>
+<g color="#596c88">
+<g stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-dasharray=".1 6">
+<path d="M200 600C283 530 153 495 230 400C299 319 209 279 238 189C250 151 289 127 278 72"/>
+<path d="M230 400C176 356 116 361 89 303M221 291C284 262 331 281 357 230M213 493C146 498 103 470 74 436"/>
+<path d="M205 519C155 544 132 530 134 505C165 490 186 497 205 519ZM242 449C301 452 328 421 310 406C273 401 252 417 242 449ZM218 360C169 337 166 307 189 302C215 321 226 341 218 360ZM235 217C182 212 163 179 185 164C215 171 234 195 235 217ZM248 146C305 156 326 134 314 111C283 107 260 122 248 146Z"/>
+<path d="M134 505 205 519M242 449 310 406M218 360 189 302M235 217 185 164M248 146 314 111"/>
+</g>
+<use href="#blossom" x="278" y="72"/><use href="#blossom" x="88" y="300" transform="rotate(-20 88 300)"/><use href="#blossom" x="356" y="226" transform="rotate(14 356 226)"/><use href="#blossom" x="74" y="436" transform="rotate(-12 74 436)"/>
+<use href="#cross" x="201" y="562"/><use href="#cross" x="232" y="488"/><use href="#cross" x="209" y="457"/><use href="#cross" x="258" y="343"/><use href="#cross" x="228" y="252"/><use href="#cross" x="131" y="350"/><use href="#cross" x="308" y="265"/>
+</g></svg>

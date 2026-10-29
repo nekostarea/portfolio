@@ -1,0 +1,56 @@
+[
+  {
+    "id": "glowrift-pitch", "group": "psychology", "folder": "Glowrift-Verdana Game UX Project — Pitch Deck",
+    "title": "Glowrift: imagining a world worth playing", "label": "Game UX · Team project", "short": "An action-RPG shaped by player perspectives, from its narrative to its accessibility.",
+    "description": "An action-RPG concept developed with a five-person team, shaped by concept testing with eight participants and multiple design iterations. This pitch brings together the game’s narrative, player experience, accessibility, and monetization strategy, and was presented to Microsoft and EA representatives for feedback.",
+    "facts": ["5-person team", "8 concept-test participants", "Industry feedback"], "question": "How can player feedback shape a compelling, accessible game concept?", "artifact": "Pitch deck"
+  },
+  {
+    "id": "glowrift-research", "group": "psychology", "folder": "Glowrift-Verdana Game UX Project — Research & Analysis",
+    "title": "Behind the world of Glowrift", "label": "Concept testing · Research", "short": "Tracing the connection between participant feedback and game design decisions.",
+    "description": "A closer look at the research behind our action-RPG concept. This deck documents participant feedback and explores how findings informed design decisions across narrative, accessibility, and monetization, connecting player perspectives to the evolution of our game.",
+    "facts": ["Player perspectives", "Design iteration", "Research synthesis"], "question": "What changes when we let players help shape the experience?", "artifact": "Research & analysis deck"
+  },
+  {
+    "id": "bilibili", "group": "psychology", "folder": "Community, Co-Presence, and Content Architecture on Bilibili",
+    "title": "Watching together, alone", "label": "Information architecture · Course paper", "short": "Community, co-presence, and the way we discover media on Bilibili.",
+    "description": "An information architecture analysis exploring how Bilibili organizes content while supporting community and a sense of shared presence. This course paper examines the relationship between platform structure and social experience, considering how content architecture shapes the way people discover and engage with media.",
+    "facts": ["Content architecture", "Social experience", "Platform analysis"], "question": "How does the structure of a platform create a sense of being together?", "artifact": "Course paper"
+  },
+  {
+    "id": "little-nightmares", "group": "psychology", "folder": "Little Nightmares II — Game Experience Analysis",
+    "title": "Small character. Lasting experience.", "label": "Game experience · Critical analysis", "short": "A closer look at how Little Nightmares II creates tension, immersion, and friction.",
+    "description": "An in-depth analysis of Little Nightmares II through the GUR and GAP categories and concepts studied in class. The paper examines how the game’s design choices shape the player experience, connecting specific examples from gameplay to broader analytical frameworks.",
+    "facts": ["GUR & GAP frameworks", "Player experience", "Gameplay analysis"], "question": "How do small design decisions shape the way a game feels?", "artifact": "Game experience analysis"
+  },
+  {
+    "id": "solar-terms", "group": "usability", "folder": "\"Twenty-Four Solar Terms\" Life-Simulation Game — Usability Evaluation",
+    "title": "Making room for a little less friction", "label": "Usability evaluation · UX internship", "short": "Evaluating onboarding, quests, navigation, and camera controls in a life-simulation game.",
+    "description": "A usability evaluation completed during my summer UX design internship, examining onboarding, quest flow, navigation, and camera controls. Through heuristic analysis and gameplay testing, I identified more than 25 issues and proposed design changes grounded in HCI and psychology principles.",
+    "facts": ["25+ issues identified", "Heuristic evaluation", "Gameplay testing"], "question": "How can everyday game interactions feel more intuitive?", "artifact": "Usability evaluation report"
+  },
+  {
+    "id": "furniture", "group": "usability", "folder": "Furniture Interaction Design — Figma Wireframes & Icon States.jpg",
+    "title": "A place for everything", "label": "Interaction design · Figma", "short": "Wireframes and icon states for a more understandable home-decoration experience.",
+    "description": "A Figma exploration of home-decoration interactions for a life-simulation game, featuring more than 30 wireframes and UI states. The designs address inventory search, undo and redo, and 3D furniture placement, with icon states that communicate available actions and interaction feedback.",
+    "facts": ["30+ wireframes & UI states", "3D furniture placement", "Interaction feedback"], "question": "How can controls make placing, finding, and adjusting furniture easier to understand?", "artifact": "Wireframes & icon states"
+  },
+  {
+    "id": "urban-outfitters", "group": "usability", "folder": "Urban Outfitters — Website Accessibility Audit",
+    "title": "A more accessible way to shop", "label": "Accessibility · Collaborative audit", "short": "Identifying barriers and recommending a more inclusive shopping experience.",
+    "description": "A collaborative accessibility audit of the Urban Outfitters website using both automated and manual testing. Our presentation documents accessibility barriers, explains their impact on users, and recommends changes to make the shopping experience more accessible.",
+    "facts": ["Automated & manual testing", "Accessibility barriers", "Design recommendations"], "question": "What stands between a shopper and an accessible experience?", "artifact": "Accessibility audit presentation"
+  },
+  {
+    "id": "llm-emotions", "group": "human-ai", "folder": "LLMs, Theory of Mind & Emotional Reasoning",
+    "title": "Can AI understand how it feels?", "label": "Human–AI interaction · Independent research", "short": "Comparing human and model judgments of emotionally difficult social situations.",
+    "description": "An independent research paper examining how large language models interpret emotionally difficult social situations compared with human judgments. Drawing on 96 human ratings and 80 responses from five LLMs, the study explores social-pain judgments across 16 scenarios and considers their implications for AI’s understanding of human emotional experience.",
+    "facts": ["96 human ratings", "80 responses · 5 LLMs", "16 social scenarios"], "question": "How closely do AI judgments of social pain align with human judgments?", "artifact": "Independent research paper"
+  },
+  {
+    "id": "brand-card", "group": "graphic", "folder": "Graphic Design - Brand Name Card", "title": "An introduction, on paper", "label": "Graphic design · Brand name card", "short": "A brand name card design study.", "description": "A selection from my brand name card design project.", "facts": [], "artifact": "Brand name card"
+  },
+  {
+    "id": "photo-booklet", "group": "graphic", "folder": "Graphic Design - Photo Booklet", "title": "Fall back into place", "label": "Graphic design · Photo booklet", "short": "Photography collected in the pages of a booklet.", "description": "A selection from my photo booklet design project.", "facts": [], "artifact": "Photo booklet"
+  }
+]
