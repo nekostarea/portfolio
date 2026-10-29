@@ -2,15 +2,15 @@
 @font-face{font-family:'Apple Garamond';src:url('fonts/apple-garamond-light.ttf') format('truetype');font-weight:300 400;font-style:normal;font-display:swap}
 @font-face{font-family:'Apple Garamond';src:url('fonts/apple-garamond-bold-italic.ttf') format('truetype');font-weight:700;font-style:italic;font-display:swap}
 :root{--body:'Apple Garamond',serif;--mono:'Courier',monospace;--paper:#f2eee4;--ink:#25394f;--muted:#43576a}
-body{font:20px/1.6 var(--body);background-color:var(--paper);background-image:linear-gradient(#f6f3eb8c,#f6f3eb8c),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+body{font:20px/1.6 var(--body);background-color:var(--paper)}
 body:before{display:none}
 h2,h3{font-weight:300}
-.site-header{background-color:var(--paper);background-image:linear-gradient(#f6f3ebb5,#f6f3ebb5),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+.site-header{background-color:var(--paper)}
 .site-header nav a{font:14px/1.6 var(--mono)}
 .hello-link,.pill-link,.expertise-action,.project-jump a,.text-link{font-family:var(--mono)}
 .hand{font-family:'Apple Garamond',serif;font-style:italic;font-weight:700}
 .blue-hero h1,.section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand,.footer-top h2 .hand{font-family:Mazzy,cursive;font-style:normal;font-weight:400}
-.blue-hero{padding-top:72px;background-color:#ccd6e2;background-image:radial-gradient(ellipse at 80% 20%,#f4ede252,transparent 65%),linear-gradient(#cad6e4aa,#dcd9e4ad),url('materials/ivory-canvas.png');background-size:auto,auto,640px 640px}
+.blue-hero{padding-top:72px;background-color:#ccd6e2;background-image:radial-gradient(ellipse at 80% 20%,#f4ede252,transparent 65%),linear-gradient(#cad6e4aa,#dcd9e4ad),url('materials/blue-cardstock.jpg');background-size:auto,auto,cover}
 .blue-hero:after,.about-section:after,footer:before{height:55px;background-image:url('materials/cotton-lace.png');background-size:auto 55px;background-position:left center;background-repeat:repeat-x;opacity:.92}
 .blue-hero .hero-layout{padding-top:46px;padding-bottom:52px;min-height:650px}
 .blue-hero .intro-line{font-size:22px}
@@ -18,32 +18,32 @@ h2,h3{font-weight:300}
 .blue-hero .hero-description{font-size:22px;line-height:1.5;background:none;max-width:390px;color:#293e53}
 .hero-side-note{font-size:31px;color:#34495e}
 .photo-afterthought{font-size:27px;color:#34495e}
-.photo-keepsake{background-color:#fffdf5ba;background-image:linear-gradient(#fffdf5bb,#fffdf5bb),url('materials/ivory-canvas.png');background-size:auto,500px 500px}
+.photo-keepsake{background-color:#fffdf5ba}
 .photo-caption{font:16px/1.35 var(--body)}
 .photo-index{font:11px var(--mono)}
 .section-heading>p,.section-intro{font:20px/1.5 var(--body);color:var(--muted)}
 .expertise-card>p{font:19px/1.45 var(--body);color:#354c61}
 .expertise-card h3{font-size:34px;line-height:1.1;letter-spacing:-.025em}
-.expertise-card{background-image:linear-gradient(#e5eaf075,#e5eaf075),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
-.expertise-card:nth-child(2){background-image:linear-gradient(#eee7dd85,#eee7dd85),url('materials/ivory-canvas.png')}
-.expertise-card:nth-child(3){background-image:linear-gradient(#e6dfed85,#e6dfed85),url('materials/ivory-canvas.png')}
+.expertise-card{background-color:#e5eaf0}
+.expertise-card:nth-child(2){background-color:#eee7dd}
+.expertise-card:nth-child(3){background-color:#e6dfed}
 .card-info h3{font-size:30px;line-height:1.15;letter-spacing:-.025em}
 .card-info>p:not(.eyebrow){font:19px/1.5 var(--body)}
-.about-section{padding-top:75px;background-color:#e4e8ec;background-image:linear-gradient(#e3e9eead,#e3e9eead),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+.about-section{padding-top:75px;background-color:#e8dfe6;background-image:linear-gradient(#e8dfe6cc,#e8dfe6cc),url('materials/lavender-paper.jpg');background-size:auto,cover}
 .about-copy{font:21px/1.55 var(--body)}
-.collection-hero{background-color:#e5eaf0;background-image:radial-gradient(ellipse at 85% 5%,#ece3eb66,transparent 70%),linear-gradient(#e6ecf2ae,#e6ecf2ae),url('materials/ivory-canvas.png');background-size:auto,auto,640px 640px}
+.collection-hero{background-color:#e5eaf0;background-image:radial-gradient(ellipse at 85% 5%,#ece3eb66,transparent 70%),linear-gradient(#e6ecf2b8,#e6ecf2b8),url('materials/ornate-paper.jpg');background-size:auto,auto,cover}
 .collection-description{font:23px/1.5 var(--body);max-width:600px}
 .study-heading h2{font-family:var(--body);letter-spacing:-.025em}
 .study-overview{font:21px/1.55 var(--body)}
 .study-question{font:italic 700 28px/1.25 'Apple Garamond',serif;letter-spacing:0}
-.study-cover{background-color:#e9e5db;background-image:linear-gradient(#e9e5db99,#e9e5db99),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+.study-cover{background-color:#e9e5db}
 .project-gallery{background-color:#fffdf542}
 .project-gallery summary{font:18px/1.4 var(--body);padding-top:20px;padding-bottom:20px}
 .gallery-note{font:17px/1.5 var(--body)}
 figcaption{font:16px/1.4 var(--body)}
 .viewer{font-family:var(--body);background-color:var(--paper)}
 .viewer button,.viewer-count{font-family:var(--mono)}
-footer{padding-top:80px;background-color:#2d435d;background-image:linear-gradient(#253b54ee,#253b54ee),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+footer{padding-top:80px;background-color:#2d435d}
 footer:before{opacity:.92}
 .footer-top .eyebrow{font-size:13px}
 .footer-top h2{font-size:clamp(36px,4.4vw,62px)}
