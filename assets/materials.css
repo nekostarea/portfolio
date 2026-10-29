@@ -6,12 +6,12 @@ body{font:20px/1.6 var(--body);background-color:var(--paper);background-image:li
 body:before{display:none}
 h2,h3{font-weight:300}
 .site-header{background-color:var(--paper);background-image:linear-gradient(#f6f3ebb5,#f6f3ebb5),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
-.site-header nav a{font:11px/1.6 var(--mono)}
+.site-header nav a{font:14px/1.6 var(--mono)}
 .hello-link,.pill-link,.expertise-action,.project-jump a,.text-link{font-family:var(--mono)}
 .hand{font-family:'Apple Garamond',serif;font-style:italic;font-weight:700}
 .blue-hero h1,.section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand,.footer-top h2 .hand{font-family:Mazzy,cursive;font-style:normal;font-weight:400}
-.blue-hero{padding-top:116px;background-color:#ccd6e2;background-image:radial-gradient(ellipse at 80% 20%,#f4ede252,transparent 65%),linear-gradient(#cad6e4aa,#dcd9e4ad),url('materials/ivory-canvas.png');background-size:auto,auto,640px 640px}
-.blue-hero:after,.about-section:after,footer:before{height:104px;background-image:url('materials/cotton-lace.png');background-size:500px auto;background-position:left -29px;background-repeat:repeat-x;opacity:1;filter:drop-shadow(0 2px 1px #60584722)}
+.blue-hero{padding-top:72px;background-color:#ccd6e2;background-image:radial-gradient(ellipse at 80% 20%,#f4ede252,transparent 65%),linear-gradient(#cad6e4aa,#dcd9e4ad),url('materials/ivory-canvas.png');background-size:auto,auto,640px 640px}
+.blue-hero:after,.about-section:after,footer:before{height:55px;background-image:url('materials/cotton-lace.png');background-size:auto 55px;background-position:left center;background-repeat:repeat-x;opacity:.92}
 .blue-hero .hero-layout{padding-top:46px;padding-bottom:52px;min-height:650px}
 .blue-hero .intro-line{font-size:22px}
 .intro-line .hand{font-size:26px}
@@ -20,7 +20,7 @@ h2,h3{font-weight:300}
 .photo-afterthought{font-size:27px;color:#34495e}
 .photo-keepsake{background-color:#fffdf5ba;background-image:linear-gradient(#fffdf5bb,#fffdf5bb),url('materials/ivory-canvas.png');background-size:auto,500px 500px}
 .photo-caption{font:16px/1.35 var(--body)}
-.photo-index{font:9px var(--mono)}
+.photo-index{font:11px var(--mono)}
 .section-heading>p,.section-intro{font:20px/1.5 var(--body);color:var(--muted)}
 .expertise-card>p{font:19px/1.45 var(--body);color:#354c61}
 .expertise-card h3{font-size:34px;line-height:1.1;letter-spacing:-.025em}
@@ -29,7 +29,7 @@ h2,h3{font-weight:300}
 .expertise-card:nth-child(3){background-image:linear-gradient(#e6dfed85,#e6dfed85),url('materials/ivory-canvas.png')}
 .card-info h3{font-size:30px;line-height:1.15;letter-spacing:-.025em}
 .card-info>p:not(.eyebrow){font:19px/1.5 var(--body)}
-.about-section{padding-top:130px;background-color:#e4e8ec;background-image:linear-gradient(#e3e9eead,#e3e9eead),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+.about-section{padding-top:75px;background-color:#e4e8ec;background-image:linear-gradient(#e3e9eead,#e3e9eead),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
 .about-copy{font:21px/1.55 var(--body)}
 .collection-hero{background-color:#e5eaf0;background-image:radial-gradient(ellipse at 85% 5%,#ece3eb66,transparent 70%),linear-gradient(#e6ecf2ae,#e6ecf2ae),url('materials/ivory-canvas.png');background-size:auto,auto,640px 640px}
 .collection-description{font:23px/1.5 var(--body);max-width:600px}
@@ -43,10 +43,10 @@ h2,h3{font-weight:300}
 figcaption{font:16px/1.4 var(--body)}
 .viewer{font-family:var(--body);background-color:var(--paper)}
 .viewer button,.viewer-count{font-family:var(--mono)}
-footer{padding-top:140px;background-color:#2d435d;background-image:linear-gradient(#253b54ee,#253b54ee),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
+footer{padding-top:80px;background-color:#2d435d;background-image:linear-gradient(#253b54ee,#253b54ee),url('materials/ivory-canvas.png');background-size:auto,640px 640px}
 footer:before{opacity:.92}
-.footer-top .eyebrow{font-size:11px}
+.footer-top .eyebrow{font-size:13px}
 .footer-top h2{font-size:clamp(36px,4.4vw,62px)}
 .next-collection>a{font-size:28px}
 @media(max-width:1000px){.blue-hero h1{font-size:15vw}.blue-hero .hero-description{font-size:21px}.expertise-card h3{font-size:30px}}
-@media(max-width:720px){body{font-size:20px}.site-header nav{gap:10px 17px}.site-header nav a{font-size:10px;line-height:1.8}.blue-hero{padding-top:93px}.blue-hero:after,.about-section:after,footer:before{height:78px;background-size:380px auto;background-position:left -22px}.blue-hero .hero-layout{padding-top:30px;padding-bottom:22px;min-height:0}.blue-hero h1{font-size:clamp(105px,33vw,160px)}.blue-hero .intro-line{font-size:20px}.blue-hero .hero-description{font-size:21px;line-height:1.45}.hero-side-note{font-size:27px}.photo-afterthought{font-size:24px}.photo-caption{font-size:15px}.section-heading>p,.section-intro{font-size:21px}.expertise-card>p{font-size:20px}.expertise-card h3{font-size:34px}.card-info h3{font-size:32px}.card-info>p:not(.eyebrow){font-size:21px}.about-section{padding-top:105px}.about-copy{font-size:21px}.collection-description{font-size:22px}.study-overview{font-size:21px}.study-question{font-size:27px}.project-gallery summary{font-size:17px}.gallery-note{font-size:17px}.viewer-toolbar h2{font-size:20px}.next-collection>a{font-size:27px}footer{padding-top:115px}.footer-top .eyebrow{font-size:9px}.socials{row-gap:20px}}
+@media(max-width:720px){body{font-size:20px}.site-header nav{gap:10px 17px}.site-header nav a{font-size:10px;line-height:1.8}.blue-hero{padding-top:68px}.blue-hero:after,.about-section:after,footer:before{height:45px;background-size:auto 45px;background-position:left center}.blue-hero .hero-layout{padding-top:30px;padding-bottom:22px;min-height:0}.blue-hero h1{font-size:clamp(105px,33vw,160px)}.blue-hero .intro-line{font-size:20px}.blue-hero .hero-description{font-size:21px;line-height:1.45}.hero-side-note{font-size:27px}.photo-afterthought{font-size:24px}.photo-caption{font-size:15px}.section-heading>p,.section-intro{font-size:21px}.expertise-card>p{font-size:20px}.expertise-card h3{font-size:34px}.card-info h3{font-size:32px}.card-info>p:not(.eyebrow){font-size:21px}.about-section{padding-top:60px}.about-copy{font-size:21px}.collection-description{font-size:22px}.study-overview{font-size:21px}.study-question{font-size:27px}.project-gallery summary{font-size:17px}.gallery-note{font-size:17px}.viewer-toolbar h2{font-size:20px}.next-collection>a{font-size:27px}footer{padding-top:70px}.footer-top .eyebrow{font-size:9px}.socials{row-gap:20px}}
