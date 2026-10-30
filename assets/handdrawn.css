@@ -1,5 +1,5 @@
 /* Slightly uneven outlines and pencil rules; readable text stays undistorted. */
-.garden-gate{opacity:.4;filter:sepia(.07) saturate(.7);top:-110px}
+.garden-gate{opacity:.5;filter:sepia(.07) saturate(.7);top:-110px}
 .hero-side-note,.photo-afterthought{background:#f5eaf2ed;box-shadow:0 0 14px 7px #f5eaf299;border-radius:6px 11px 4px 8px;padding:4px 9px;width:fit-content}
 .pill-link{border-radius:47% 53% 48% 52% / 48% 45% 55% 52%;border-width:1px;box-shadow:1px 1px 0 #bc9fb34d;transform:rotate(-.6deg)}
 .pill-link:hover{transform:translateY(-2px) rotate(.3deg)}
