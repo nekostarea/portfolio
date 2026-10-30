@@ -19,7 +19,7 @@
 .blue-hero .hero-bottom{border-top:1px dashed #7d91aa;position:relative;z-index:2}
 .section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand,.footer-top h2 .hand{font-family:Mazzy,serif;font-size:1.12em;line-height:1.3;letter-spacing:-.035em}
 .section-heading{position:relative;overflow:hidden}
-.section-heading:before{content:'';position:absolute;left:-40px;top:-60px;width:400px;height:620px;background:url('materials/embossed-floral.jpg') center/contain no-repeat;opacity:.32;z-index:-1;pointer-events:none}
+.section-heading:before{content:'';position:absolute;left:-40px;top:-60px;width:500px;height:720px;background:url('materials/embossed-floral.jpg') center/contain no-repeat;opacity:.42;z-index:-1;pointer-events:none}
 .expertise-card{position:relative;border:1px solid #bcc7d2;border-radius:2px;background:#e4eaf0b3;isolation:isolate}
 .expertise-card:after{content:'';position:absolute;inset:7px;border:1px dashed #8495a485;z-index:-1;pointer-events:none}
 .expertise-card:nth-child(2){background:#eee8e0b8}.expertise-card:nth-child(3){background:#e9e2efba}
@@ -27,21 +27,25 @@
 .expertise-action{border-top-style:dashed}
 .card-image{border-radius:2px;position:relative}.card-image:after{content:'';position:absolute;inset:7px;border:1px dashed #7f8d9e94;pointer-events:none}
 .about-section{position:relative;background:#e8eaf0;isolation:isolate;overflow:hidden}
-.about-section:before{content:'';position:absolute;right:-60px;bottom:-80px;width:300px;height:530px;background:url('materials/dotted-rose.png') center/contain no-repeat;opacity:.35;z-index:-1;transform:rotate(10deg)}
+.about-section:before{content:'';position:absolute;right:-30px;bottom:-60px;width:400px;height:650px;background:url('materials/dotted-rose.png') center/contain no-repeat;opacity:.48;z-index:-1;transform:rotate(10deg)}
 .about-section:after{content:'';position:absolute;left:0;right:0;top:0;height:55px;background:url('materials/cotton-lace.png') left center/auto 55px repeat-x;pointer-events:none;opacity:.92}
 .project-gallery{border-style:dashed;background:#fffdf733}
 .study+.study{border-top:0}.study{border-bottom-style:dashed}
 .expertise-section{position:relative;overflow:hidden}
-.expertise-section:after{content:'';position:absolute;right:10px;bottom:-40px;width:220px;height:310px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.35;z-index:-1;pointer-events:none;transform:rotate(12deg)}
+.expertise-section:after{content:'';position:absolute;right:10px;bottom:-40px;width:320px;height:440px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.48;z-index:-1;pointer-events:none;transform:rotate(12deg)}
+.expertise-section:before{content:'';position:absolute;left:-30px;top:60px;width:200px;height:280px;background:url('materials/garden-gate.png') center/contain no-repeat;opacity:.2;z-index:-1;pointer-events:none;transform:rotate(-8deg)}
 .visual-section{position:relative;overflow:hidden}
-.visual-section:after{content:'';position:absolute;left:10px;top:40px;width:200px;height:310px;background:url('materials/embroidery-stitch.png') center/contain no-repeat;opacity:.3;z-index:-1;pointer-events:none;transform:rotate(-6deg)}
+.visual-section:after{content:'';position:absolute;left:10px;top:40px;width:280px;height:420px;background:url('materials/embroidery-stitch.png') center/contain no-repeat;opacity:.4;z-index:-1;pointer-events:none;transform:rotate(-6deg)}
+.visual-section:before{content:'';position:absolute;right:20px;bottom:60px;width:220px;height:340px;background:url('materials/dotted-rose.png') center/contain no-repeat;opacity:.25;z-index:-1;pointer-events:none;transform:rotate(15deg)}
 .collection-hero{position:relative;overflow:visible;background:radial-gradient(ellipse at 90% 10%,#ede4ed88,transparent 70%),#e7edf3}
-.collection-hero:after{content:'';position:absolute;width:260px;height:380px;right:15px;top:10px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.5;transform:rotate(-8deg);pointer-events:none;z-index:0}
-.page-psychology .collection-hero:after{background-image:url('materials/dotted-rose.png');width:240px;height:420px;right:15px;top:0;opacity:.5;transform:rotate(5deg)}
-.page-usability .collection-hero:after{background-image:url('materials/vine-frame.png');width:300px;height:220px;right:15px;top:-10px;opacity:.4;transform:rotate(-5deg)}
-.page-human-ai .collection-hero:after{background-image:url('materials/embroidery-stitch.png');width:240px;height:370px;right:15px;top:10px;opacity:.45;transform:rotate(-12deg)}
+.collection-hero:after{content:'';position:absolute;width:340px;height:480px;right:15px;top:10px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.55;transform:rotate(-8deg);pointer-events:none;z-index:0}
+.page-psychology .collection-hero:after{background-image:url('materials/dotted-rose.png');width:320px;height:520px;right:15px;top:0;opacity:.55;transform:rotate(5deg)}
+.page-usability .collection-hero:after{background-image:url('materials/vine-frame.png');width:380px;height:280px;right:15px;top:-10px;opacity:.48;transform:rotate(-5deg)}
+.page-human-ai .collection-hero:after{background-image:url('materials/embroidery-stitch.png');width:320px;height:470px;right:15px;top:10px;opacity:.5;transform:rotate(-12deg)}
 .collection-hero h1{font-size:clamp(40px,5.6vw,74px)}
 .footer-top h2 .hand{color:#e5e8f1}
+.project-grid{position:relative;overflow:visible}
+.project-grid:before{content:'';position:absolute;right:-20px;top:-30px;width:180px;height:260px;background:url('materials/vine-frame.png') center/contain no-repeat;opacity:.22;z-index:-1;pointer-events:none;transform:rotate(8deg)}
 footer{position:relative;padding-top:80px}
 footer:before{content:'';position:absolute;left:0;right:0;top:0;height:55px;background:url('materials/cotton-lace.png') left center/auto 55px repeat-x;opacity:.85;pointer-events:none}
 .footer-bottom{border-top-style:dashed}
