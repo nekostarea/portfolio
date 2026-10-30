@@ -54,9 +54,6 @@ footer .circle-link{border-color:#ae8d9f}
 .wordmark .glyph-icon{width:22px;height:22px}
 /* Per-page backgrounds: each subpage gets a distinct texture */
 .page-psychology .collection-hero{background-image:radial-gradient(ellipse at 90% 5%,#edd0dfaa,transparent 65%),linear-gradient(#dbe5f0a0,#e7dceca0),url('materials/lavender-paper.jpg');background-size:auto,auto,cover}
-.page-psychology .study-cover{background-image:url('materials/embossed-floral.jpg');background-size:cover;background-position:center}
 .page-usability .collection-hero{background-image:radial-gradient(ellipse at 85% 10%,#c5d7e7b8,transparent 60%),linear-gradient(#d0dff0a8,#d8e4f0a8),url('materials/blue-cardstock.jpg');background-size:auto,auto,cover}
-.page-usability .study-cover{background-image:linear-gradient(#e9e5dba0,#e9e5dba0),url('materials/ornate-paper.jpg');background-size:auto,cover}
 .page-human-ai .collection-hero{background-image:radial-gradient(ellipse at 10% 90%,#e7c5d788,transparent 55%),linear-gradient(#e5dcebb0,#dbe5f0a5),url('materials/ornate-paper.jpg');background-size:auto,auto,cover}
-.page-human-ai .study-cover{background-image:url('materials/lavender-paper.jpg');background-size:cover;background-position:center}
 @media(max-width:720px){.site-header nav a{font-size:10px}.garden-gate{width:140%;left:-20%;top:-55px;opacity:.23}.hero-side-note{font-size:22px;line-height:1.6}.margin-note{display:none}}
