@@ -8,7 +8,7 @@
 .blue-hero .hero-description{background:#f8f7f022;padding:5px 0}
 .embroidered-flower{position:absolute;right:-10px;top:100px;width:380px;height:auto;pointer-events:none;opacity:.7;z-index:-1;transform:rotate(7deg)}
 .hero-photo-area{isolation:isolate;padding-top:15px}
-.hero-photo-area:before{content:'';position:absolute;inset:60px -45px 25px -55px;background:url('materials/vine-frame.png') center/contain no-repeat;opacity:.18;z-index:-1;pointer-events:none;transform:rotate(-2deg)}
+.hero-photo-area:before{content:'';position:absolute;inset:60px -45px 25px -55px;background:url('materials/vine-frame.png') center/contain no-repeat;opacity:.35;z-index:-1;pointer-events:none;transform:rotate(-2deg)}
 .photo-echo{position:absolute;top:106px;left:-50px;width:108%;transform:rotate(-13deg);opacity:.34;z-index:-2;pointer-events:none;mix-blend-mode:multiply;filter:grayscale(.35)}
 .photo-echo img{width:100%;height:auto}
 .hero-side-note,.photo-afterthought{position:relative;z-index:1}
@@ -18,7 +18,7 @@
 .blue-hero .hero-bottom{border-top:1px dashed #7d91aa;position:relative;z-index:2}
 .section-heading h2 .hand,.about-section h2 .hand,.collection-hero h1 .hand,.footer-top h2 .hand{font-family:Mazzy,serif;font-size:1.12em;line-height:1.3;letter-spacing:-.035em}
 .section-heading{position:relative;overflow:hidden}
-.section-heading:before{content:'';position:absolute;left:-40px;top:-60px;width:400px;height:620px;background:url('materials/embossed-floral.jpg') center/contain no-repeat;opacity:.12;z-index:-1;pointer-events:none}
+.section-heading:before{content:'';position:absolute;left:-40px;top:-60px;width:400px;height:620px;background:url('materials/embossed-floral.jpg') center/contain no-repeat;opacity:.32;z-index:-1;pointer-events:none}
 .expertise-card{position:relative;border:1px solid #bcc7d2;border-radius:2px;background:#e4eaf0b3;isolation:isolate}
 .expertise-card:after{content:'';position:absolute;inset:7px;border:1px dashed #8495a485;z-index:-1;pointer-events:none}
 .expertise-card:nth-child(2){background:#eee8e0b8}.expertise-card:nth-child(3){background:#e9e2efba}
@@ -26,19 +26,22 @@
 .expertise-action{border-top-style:dashed}
 .card-image{border-radius:2px;position:relative}.card-image:after{content:'';position:absolute;inset:7px;border:1px dashed #7f8d9e94;pointer-events:none}
 .about-section{position:relative;background:#e8eaf0;isolation:isolate;overflow:hidden}
-.about-section:before{content:'';position:absolute;right:-60px;bottom:-80px;width:300px;height:530px;background:url('materials/dotted-rose.png') center/contain no-repeat;opacity:.15;z-index:-1;transform:rotate(10deg)}
+.about-section:before{content:'';position:absolute;right:-60px;bottom:-80px;width:300px;height:530px;background:url('materials/dotted-rose.png') center/contain no-repeat;opacity:.35;z-index:-1;transform:rotate(10deg)}
 .about-section:after{content:'';position:absolute;left:0;right:0;top:0;height:55px;background:url('materials/cotton-lace.png') left center/auto 55px repeat-x;pointer-events:none;opacity:.92}
 .project-gallery{border-style:dashed;background:#fffdf733}
 .study+.study{border-top:0}.study{border-bottom-style:dashed}
 .collection-hero{background:radial-gradient(ellipse at 90% 10%,#ede4ed88,transparent 70%),#e7edf3}
-.collection-hero:after{width:280px;right:-35px;top:15px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.16;transform:rotate(-8deg)}
+.collection-hero:after{width:280px;right:-35px;top:15px;background:url('materials/dotted-bouquet.png') center/contain no-repeat;opacity:.35;transform:rotate(-8deg)}
+.page-psychology .collection-hero:after{background-image:url('materials/dotted-rose.png');width:240px;right:-30px;top:0;opacity:.3;transform:rotate(5deg)}
+.page-usability .collection-hero:after{background-image:url('materials/vine-frame.png');width:320px;right:-50px;top:-20px;opacity:.2;transform:rotate(-5deg)}
+.page-human-ai .collection-hero:after{background-image:url('materials/embroidery-stitch.png');width:260px;right:-25px;top:10px;opacity:.28;transform:rotate(-12deg)}
 .collection-hero h1{font-size:clamp(40px,5.6vw,74px)}
 .footer-top h2 .hand{color:#e5e8f1}
 footer{position:relative;padding-top:80px}
 footer:before{content:'';position:absolute;left:0;right:0;top:0;height:55px;background:url('materials/cotton-lace.png') left center/auto 55px repeat-x;opacity:.85;pointer-events:none}
 .footer-bottom{border-top-style:dashed}
 @media(max-width:1000px){.blue-hero h1{font-size:9.5vw}.embroidered-flower{width:300px;right:-80px;opacity:.45}.photo-echo{left:-20px;width:100%}.hero-photo-area:before{left:-10px;right:-10px}}
-@media(max-width:720px){.blue-hero{padding-top:48px}.blue-hero:before{border-style:dashed;border-color:#fffdf799;border-radius:0;inset:15px}.blue-hero:after{height:45px;background-size:auto 45px;background-position:left center}.blue-hero h1{font-size:clamp(62px,15.9vw,110px);line-height:1.1;letter-spacing:-.04em;margin-bottom:26px}.blue-hero h1>span{font-size:.84em;line-height:1.1;margin-top:12px}.embroidered-flower{width:230px;top:auto;bottom:45px;right:-47px;opacity:.38}.hero-photo-area{padding-top:0;max-width:270px;margin-top:30px}.hero-photo-area:before{inset:75px -10px 35px -10px}.photo-echo{top:100px;left:-18px;width:105%;opacity:.28}.photo-keepsake{padding:14px}.blue-hero .hero-description{font-size:14px}.section-heading h2 .hand,.about-section h2 .hand{font-size:1.02em}.collection-hero h1 .hand{font-size:1.04em}.collection-hero:after{width:180px;right:-55px;opacity:.10}.about-section:after{height:36px;background-size:64px 36px}}
+@media(max-width:720px){.blue-hero{padding-top:48px}.blue-hero:before{border-style:dashed;border-color:#fffdf799;border-radius:0;inset:15px}.blue-hero:after{height:45px;background-size:auto 45px;background-position:left center}.blue-hero h1{font-size:clamp(62px,15.9vw,110px);line-height:1.1;letter-spacing:-.04em;margin-bottom:26px}.blue-hero h1>span{font-size:.84em;line-height:1.1;margin-top:12px}.embroidered-flower{width:230px;top:auto;bottom:45px;right:-47px;opacity:.38}.hero-photo-area{padding-top:0;max-width:270px;margin-top:30px}.hero-photo-area:before{inset:75px -10px 35px -10px}.photo-echo{top:100px;left:-18px;width:105%;opacity:.28}.photo-keepsake{padding:14px}.blue-hero .hero-description{font-size:14px}.section-heading h2 .hand,.about-section h2 .hand{font-size:1.02em}.collection-hero h1 .hand{font-size:1.04em}.collection-hero:after{width:180px;right:-55px;opacity:.22}.about-section:after{height:36px;background-size:64px 36px}}
 /* Mazzy's drawn letters occupy less of the em square than the previous script. */
 @media(max-width:1000px) and (min-width:721px){.blue-hero h1{font-size:17vw;line-height:.9}}
 @media(max-width:720px){.blue-hero h1{font-size:clamp(105px,33vw,160px);line-height:.95}.blue-hero h1>span{font-size:.91em;line-height:.95;margin-top:12px}}
